@@ -1,0 +1,31 @@
+logging:
+  level: INFO
+  loggers:
+    com.prakash.projects: DEBUG
+    "liquibase": DEBUG
+
+database:
+  driverClass: org.postgresql.Driver
+  user: postgres
+  password:
+  url: jdbc:postgresql://localhost:5432/shipment_service
+  maxWaitForConnection: 1s
+  validationQuery: "SELECT 1"
+  minSize: 5
+  maxSize: 25
+  checkConnectionWhileIdle: true
+  evictionInterval: 10s
+  minIdleTime: 1 minute
+
+server:
+  applicationConnectors:
+    - type: http
+      port: 8080
+  adminConnectors:
+    - type: http
+      port: 8081
+
+#metrics:
+#  frequency: 1 minute
+#  reporters:
+#    - type: console

@@ -1,0 +1,15 @@
+com/prakash/projects/resources/CustomerResource.class
+com/prakash/projects/resources/DeliveryPartnerResource.class
+com/prakash/projects/dao/CustomerDAO.class
+com/prakash/projects/ShipmentServiceExampleApplication.class
+com/prakash/projects/db/Shipment.class
+com/prakash/projects/dao/ShipmentDAO.class
+com/prakash/projects/ShipmentServiceExampleConfiguration.class
+com/prakash/projects/dao/DeliveryPartnerDAO.class
+com/prakash/projects/db/Shipment$ShipmentStatus.class
+com/prakash/projects/ShipmentServiceExampleApplication$1.class
+com/prakash/projects/ShipmentServiceExampleApplication$2.class
+com/prakash/projects/resources/ShipmentResource.class
+com/prakash/projects/resources/HelloWorldResource.class
+com/prakash/projects/db/Customer.class
+com/prakash/projects/db/DeliveryPartner.class
